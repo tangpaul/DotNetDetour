@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetDetour", "DotNetDetour\DotNetDetour.csproj", "{900B35A0-C116-46E2-875A-9BAB0C6D5A55}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{9E079A1B-8A31-4F74-A027-1DD2848754D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreDetour", "DotNetCoreDetour\DotNetCoreDetour.csproj", "{FA939B74-9195-403D-9692-C1BB5F893CB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,8 +33,19 @@ Global
 		{9E079A1B-8A31-4F74-A027-1DD2848754D4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9E079A1B-8A31-4F74-A027-1DD2848754D4}.Release|x64.ActiveCfg = Release|x64
 		{9E079A1B-8A31-4F74-A027-1DD2848754D4}.Release|x64.Build.0 = Release|x64
+		{FA939B74-9195-403D-9692-C1BB5F893CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA939B74-9195-403D-9692-C1BB5F893CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA939B74-9195-403D-9692-C1BB5F893CB6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FA939B74-9195-403D-9692-C1BB5F893CB6}.Debug|x64.Build.0 = Debug|Any CPU
+		{FA939B74-9195-403D-9692-C1BB5F893CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA939B74-9195-403D-9692-C1BB5F893CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA939B74-9195-403D-9692-C1BB5F893CB6}.Release|x64.ActiveCfg = Release|Any CPU
+		{FA939B74-9195-403D-9692-C1BB5F893CB6}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4C598E8-5B71-4DBB-BED4-0308990F3FB3}
 	EndGlobalSection
 EndGlobal
